@@ -6,9 +6,9 @@ class Anagram
   end
   
   def match (matches)
-    matches.split
-    word.split("")  
-    
+    letters = word.split("")  
+    matches.each do |words|
+      words.split("")
   end
  
   
