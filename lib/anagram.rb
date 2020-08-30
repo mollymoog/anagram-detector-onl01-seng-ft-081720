@@ -9,6 +9,8 @@ class Anagram
     letters = word.split("")  
     matches.each do |words|
       if words.split("").sort == letters.sort
+        words
+      end
   end
  
   
