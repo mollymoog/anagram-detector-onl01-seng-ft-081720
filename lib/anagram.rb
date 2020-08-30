@@ -5,7 +5,7 @@ class Anagram
   
   end
   
-  def match 
+  def match (word)
     
   end
  
