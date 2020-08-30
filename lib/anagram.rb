@@ -5,7 +5,8 @@ class Anagram
   
   end
   
-  def match (word_options)
+  def match 
+    word.split("")  
     
   end
  
