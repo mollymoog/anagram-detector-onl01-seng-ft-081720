@@ -15,6 +15,7 @@ class Anagram
       else
         matches = []
     end
+    end
   end
  
   
