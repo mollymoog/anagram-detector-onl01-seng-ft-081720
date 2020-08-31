@@ -17,6 +17,4 @@ class Anagram
     end
     new_word
   end
- 
-  
 end
