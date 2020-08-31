@@ -15,7 +15,7 @@ class Anagram
         new_word << words
       end
     end
-    words
+    new_word
   end
  
   
