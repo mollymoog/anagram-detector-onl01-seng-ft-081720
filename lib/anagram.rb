@@ -8,6 +8,7 @@ class Anagram
   end
   
   def match (matches)
+    new_word = []
     letters = word.split("")  
     matches.collect do |words|
       if words.split("").sort == letters.sort
