@@ -9,6 +9,7 @@ class Anagram
     letters = word.split("")  
     matches.each do |words|
       words.split("")
+      binding.pry
     end
   end
  
