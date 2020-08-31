@@ -13,7 +13,7 @@ class Anagram
       if words.split("").sort == letters.sort
         words
       else
-       self.clear
+       clear
       end
     end
   end
