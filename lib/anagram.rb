@@ -13,7 +13,7 @@ class Anagram
       if words.split("").sort == letters.sort
         words
       else
-        matches = []
+        puts "no match"
     end
     end
   end
