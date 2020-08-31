@@ -15,7 +15,6 @@ class Anagram
       else
         matches = []
       end
-      binding.pry
     end
   end
  
