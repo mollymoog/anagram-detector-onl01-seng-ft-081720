@@ -14,7 +14,8 @@ class Anagram
         words
       else
         puts "no match"
-    end
+      end
+      binding.pry
     end
   end
  
