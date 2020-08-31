@@ -12,10 +12,9 @@ class Anagram
     matches.collect do |words|
       if words.split("").sort == letters.sort
         words
-      else
-       []
       end
     end
+    words
   end
  
   
