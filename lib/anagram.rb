@@ -12,8 +12,7 @@ class Anagram
     matches.collect do |words|
       if words.split("").sort == letters.sort
         words
-      else
-        puts "no matches"
+      
       end
     end
   end
